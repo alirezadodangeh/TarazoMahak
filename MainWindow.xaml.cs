@@ -104,7 +104,7 @@ namespace TarazoMahak
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
+        {//خروجی جیسان برای برسی بیشتر
             try
             {
                 string json = JsonConvert.SerializeObject(Mahak.Scale);
