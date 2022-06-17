@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TarazoMahak"
         mc:Ignorable="d"
-        Title="تست اتصال و خوندن وزن" Height="348" Width="488">
+        Title="تست اتصال و خوندن وزن" Height="348" Width="488" Closed="Window_Closed">
     <Grid>
         <TextBox x:Name="txtLog" Margin="10,111,10,10" TextWrapping="Wrap" Text=""/>
         <Button Content="تست اتصال" HorizontalAlignment="Left" Margin="9,74,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
@@ -14,6 +14,7 @@
         <Label Content="COM" HorizontalAlignment="Left" Margin="9,16,0,0" VerticalAlignment="Top"/>
         <Button Content="تنظیم" HorizontalAlignment="Left" Margin="97,20,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
         <Button Content="Json" HorizontalAlignment="Left" Margin="167,74,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Button Content="dispose" HorizontalAlignment="Left" Margin="229,69,0,0" VerticalAlignment="Top" Click="Button_Click_4"/>
 
     </Grid>
 </Window>

@@ -118,5 +118,27 @@ namespace TarazoMahak
                 txtLog.Text += "\n\r";
             }
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Mahak.Scale.Dispose();
+            }
+            catch 
+            {
+            }
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            try
+            {
+                Mahak.Scale.Dispose();
+            }
+            catch
+            {
+            }
+        }
     }
 }
